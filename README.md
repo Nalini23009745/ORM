@@ -19,7 +19,8 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-```Models.py 
+```
+Models.py 
 from django.db import models
 from django.contrib import admin
 # Create your models here.
@@ -40,15 +41,13 @@ from django.contrib import admin
 from .models import Bank,Loandetails
 
 # Register your models here.
-admin.site.register(Bank,Loandetails)```
-
+admin.site.register(Bank,Loandetails)
+```
 ## OUTPUT
 
 Include the screenshot of your admin page.
-![image](https://github.com/user-attachments/assets/f89fd12d-b24a-45c7-af85-4d7e5486bfc0)
-![image](https://github.com/user-attachments/assets/2177a243-1aef-444e-9214-33259831c564)
-
-
+![Image3](https://github.com/user-attachments/assets/9bd2aa9a-f30c-4b9f-b008-a3429706de01)
+![image4](https://github.com/user-attachments/assets/4352920e-4883-48f0-a731-9b221fb3848a)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
