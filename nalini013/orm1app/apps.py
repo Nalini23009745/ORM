@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class OrmappConfig(AppConfig):
+class Orm1AppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'ormapp'
+    name = 'orm1app'
